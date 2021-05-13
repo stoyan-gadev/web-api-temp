@@ -9,7 +9,7 @@ namespace SG.WebApi.Controllers
         [HttpGet]
         public IActionResult Test()
         {
-            return new JsonResult("Application is up and running ...");
+            return new JsonResult("Application is up and running!");
         }
     }
 }
